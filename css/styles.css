@@ -1,0 +1,83 @@
+a {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+#title a:hover {
+  color: rgba(110, 9, 9, 0.426);
+  text-decoration: underline;
+}
+.fluid-container {
+  padding:3% 7% 15%;
+}
+#title {
+  background-color: beige;
+}
+.title-margin-padding {
+  margin: 80px 60px;
+}
+.heading{
+  margin: 50px auto;
+}
+.big-heading {
+  margin: 3rem ;
+}
+
+#title img {
+  width: 87%;
+}
+
+#features {
+  background-color: rgba(119, 211, 180, 0.539);
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#cta {
+  margin: 50px 0 16px;
+  padding: 3% 7% 15;
+}
+.cta-row {
+  margin-top: 20px;
+  width: 50%;
+  text-align: left;
+}
+.cta-row img {
+  width: 45%;
+  float: left;
+  margin-right: 30px;
+}
+.iphone {
+  width: 50%;
+  margin-right: 47px;
+}
+.d-btn {
+  margin: 30px 0 20px 30px ;
+  padding: 1.4% 3.5%;
+}
+
+footer {
+  background-color: rgba(119, 211, 180, 0.539);
+    padding: auto;
+}
+footer .container p {
+  text-align: center;
+  
+}
+
+@media (max-width:1028px) {
+  #cta {
+    text-align: center;
+    
+  }
+  #cta .container {
+    align-items: center;
+  }
+}
